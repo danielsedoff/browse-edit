@@ -1,0 +1,13 @@
+browse-edit
+
+browse-edit is a PHP text editor. It is password-protected on open and on save
+to avoid unwanted saves. This means you have to input your password after you
+have edited the file.
+
+This editor saves the file as it is but puts its previous version into the backup/
+directory. The filenames in the backu/ directory consist of the timestamp and
+of the original name.
+
+To browse directories, just input .. or directory names and press Ok / hit Enter.
+The default password is SamplePassword.
+
